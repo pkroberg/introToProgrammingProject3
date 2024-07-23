@@ -1,0 +1,42 @@
+Project 3C: Pseudocode
+
+Slot Machine
+
+Programmer: Oberg, Parker
+
+Course: CSC1019-FBN
+
+
+start
+
+Initialize list of words: ["Cherry", "Orange", "Plums", "Bell", "Melon", "Bar"]
+Initialize total_money_inserted to 0
+Initialize total_money_won to 0
+
+loop
+    Prompt user to enter money
+    
+    Add the entered money to total_money_inserted
+    
+    Generate a list of three random words from the words list
+    print the three random words
+    
+    If all three words match:
+        Calculate winnings as 3 times the entered money
+        print the winnings
+    Else if two words match:
+        Calculate winnings as 2 times the entered money
+        print the winnings
+    Else
+        Set winnings to 0
+        print that no money was won
+    
+    Add the winnings to total_money_won
+    
+    Prompt user to play again (y/n)
+    If the user input is not "y", break the loop
+
+print total money entered into the slot machine
+print total money won
+
+end

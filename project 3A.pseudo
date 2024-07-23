@@ -1,0 +1,20 @@
+Project 3A: Pseudocode
+
+Program that converts feet to inches
+
+Programmer: Oberg, Parker
+
+Course: CSC1019-FBN
+
+
+start
+
+declare feet as 12 inches
+
+conversion function
+
+prompt user for number of feet
+
+output number of feet = number of inches
+
+end

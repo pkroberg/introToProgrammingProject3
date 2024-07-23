@@ -1,0 +1,31 @@
+Project 3B: Pseudocode
+
+Number Guessing Game
+
+Programmer: Oberg, Parker
+
+Course: CSC1019-FBN
+
+
+start
+
+generate_random_number() = generate random number between 1 and 100
+
+get_user_guess() = prompt user for guess
+
+give_feedback()
+    Too low
+    Too high
+    Correct
+
+game loop
+    target_number = generate_random_number()
+    guess = None
+
+    print "I'm thinking of a number between 1 and 100. Can you guess it?"
+
+    while guess != target_number
+        guess = get_user_guess()
+        give_feedback(guess, target_number)
+
+    print "Congratulations! You guessed the number!"
